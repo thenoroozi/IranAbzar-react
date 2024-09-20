@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+   @font-face {
+      font-family: 'YekanBakh-Regular';
+      font-style: normal;
+      font-weight: normal;
+      src: url(./assets/fonts/YekanBakh-Regular.woff) format('woff');
+   }
+
+   @font-face {
+      font-family: 'YekanBakh-Medium';
+      font-style: normal;
+      font-weight: 500;
+      src: url(./assets/fonts/YekanBakh-Medium.woff) format('woff');
+   }
+
+   @font-face {
+      font-family: 'YekanBakh-Light';
+      font-style: normal;
+      font-weight: 300;
+      src: url(./assets/fonts/YekanBakh-Light.woff) format('woff');
+   }
+
+   @font-face {
+      font-family: 'YekanBakh-Thin';
+      font-style: normal;
+      font-weight: 100;
+      src: url(./assets/fonts/YekanBakh-Thin.woff) format('woff');
+   }
+
+   @font-face {
+      font-family: 'YekanBakh-Bold';
+      font-style: normal;
+      font-weight: bold;
+      src: url(./assets/fonts/YekanBakh-Bold.woff) format('woff');
+   }
+
+   @font-face {
+      font-family: 'YekanBakh-Heavy';
+      font-style: normal;
+      font-weight: 900;
+      src: url(./assets/fonts/YekanBakh-Heavy.woff) format('woff');
+   }
+
+   body {
+      @apply font-Yekan;
+   }
+}
+@layer components{
+   .btn{
+      @apply flex items-center bg-primary text-white p-2 rounded-lg transition-all hover:bg-primary/80;
+   }
+}
