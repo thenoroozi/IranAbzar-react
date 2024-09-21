@@ -1,3 +1,6 @@
+import { useState } from 'react'
+
+//icons
 import iranabzar from '../../public/images/iranabzar.svg'
 import searchIcon from '../../public/icons/search.svg'
 import person from '../../public/icons/person.svg'
@@ -10,12 +13,18 @@ import comment from '../../public/icons/comment.svg'
 import notification from '../../public/icons/notification.svg'
 import shopBag from '../../public/icons/shop bag.svg'
 
+//components
+import Login from '../components/Login'
+
+
 const Header = () => {
+   const [loginPage, setLoginPage] = useState(null);
+
    return (
       <header>
          <nav className='flex items-center justify-evenly py-6'>
             <div>
-               <img src={iranabzar} alt="iranabzar" className='drop-shadow-md'/>
+               <img src={iranabzar} alt="iranabzar" className='drop-shadow-md' />
             </div>
 
             <div className='flex items-center rounded-lg'>
@@ -33,10 +42,13 @@ const Header = () => {
                <button className='hover:bg-primary/20 w-8 h-8 p-1.5 ml-2 rounded-full'>
                   <img src={heart} className='w-6' />
                </button>
-               <button className='w-fit text-sm font-Yekan-Medium btn'>
+               <button
+                  onClick={()=> setLoginPage(true) }
+                  className='w-fit text-sm font-Yekan-Medium btn'>
                   <img src={person} className='w-5 ml-2' />
                   <p>ورود / ثبت نام</p>
                </button>
+               {!!loginPage && <Login setLoginPage={setLoginPage} />}
                <button className='relative hover:bg-primary/20 w-9 h-9 p-1.5 mr-2 rounded-full'>
                   <img src={bag} className='w-6' />
                   <span className='absolute top-0 right-0 bg-primary text-white leading-1 rounded-full w-4 h-4 text-sm'>2</span>
@@ -51,11 +63,11 @@ const Header = () => {
                </button>
                <ul className='flex items-center text-black transition-all [&_li]:flex [&_li]:items-center [&_li]:ml-3 [&_li]:cursor-pointer [&_li]:font-Yekan-Medium hover:[&_li]:text-primary [&_img]:ml-1'>
                   <li>
-                     <img src={home}/>
+                     <img src={home} />
                      <p>صفحه نخست</p>
                   </li>
                   <li>
-                     <img src={archive}/>
+                     <img src={archive} />
                      <p>آرشیو بلاگ</p>
                   </li>
                   <li>
@@ -63,13 +75,13 @@ const Header = () => {
                      <p>فروشگاه</p>
                   </li>
                   <li>
-                     <img src={comment}/>
+                     <img src={comment} />
                      <p>سوالات متداول</p>
                   </li>
                </ul>
             </div>
             <button className='bg-black  font-Yekan-Bold btn hover:bg-black/80'>
-               <img src={notification} className='ml-2'/>
+               <img src={notification} className='ml-2' />
                <p>همکاری در فروش</p>
             </button>
          </div>
