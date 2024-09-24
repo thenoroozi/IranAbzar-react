@@ -13,33 +13,34 @@ import aparat from '../../public/icons/aparat.svg'
 const Footer = () => {
    return (
       <footer>
-         <div className='flex items-center justify-evenly text-white font-Yekan-Medium py-3 bg-primary [&_div]:flex [&_div]:items-center [&_img]:ml-2 [&_img]:w-7 '>
+         <div className='flex flex-col md:flex-row items-center justify-evenly text-white font-Yekan-Medium py-3 bg-primary space-y-3 md:space-y-0 [&_div]:flex [&_div]:items-center [&_img]:ml-2 [&_img]:w-7 '>
             <div>
                <img src={wallet} />
                <span>امکان پرداخت در محل</span>
             </div>
-            <span className='h-10 w-0.5 bg-white'></span>
+            <span className='w-36 h-0.5 md:h-10 md:w-0.5 bg-white'></span>
             <div>
                <img src={call} />
                <span>پشتیبانی ۲۴ ساعته</span>
             </div>
-            <span className='h-10 w-0.5 bg-white'></span>
+            <span className='w-36 h-0.5 md:h-10 md:w-0.5 bg-white'></span>
             <div>
                <img src={guarantee} />
                <span>ضمانت اصلالت کالا</span>
             </div>
-            <span className='h-10 w-0.5 bg-white'></span>
+            <span className='w-36 h-0.5 md:h-10 md:w-0.5 bg-white'></span>
             <div>
                <img src={post} />
                <span>ارسال سریع</span>
             </div>
          </div>
+
          <div className='bg-gray-100 py-5'>
-            <div className='flex items-center justify-around py-5'>
-               <div className='flex items-start justify-between 
-               [&_h3]:font-Yekan-Bold [&_h3]:text-xl [&_h3]:mb-3 
+            <div className='flex flex-col md:flex-row items-center justify-around py-5'>
+               <div className='flex items-start justify-between pb-4 md:pb-0
+               [&_h3]:font-Yekan-Bold [&_h3]:text-lg md:[&_h3]:text-xl [&_h3]:mb-3 
                [&_div]:flex [&_div]:flex-col
-               [&_span]:mb-2 [&_span]:text-gray-500'>
+               [&_span]:mb-2 [&_span]:text-sm md:[&_span]:text-base [&_span]:text-gray-500'>
                   <div className='ml-8'>
                      <h3>راهنمای مشتریان</h3>
                      <span>پاسخ به پرسش های متداول</span>
@@ -55,8 +56,9 @@ const Footer = () => {
                      <span>قوانین و مقررات</span>
                   </div>
                </div>
+
                <div>
-                  <div className='flex items-start [&_img]:w-24'>
+                  <div className='flex items-start [&_img]:w-20 md:[&_img]:w-24'>
                      <img src={zarinPall} className='ml-5'/>
                      <img src={enamad}/>
                   </div>
@@ -69,7 +71,7 @@ const Footer = () => {
                   </div>
                </div>
             </div>
-            <div className='bg-white text-center text-primary text-lg py-2'>کلیه حقوق مادی و معنوی دوره ها متعلق به این وبسایت می باشد.</div>
+            <div className='bg-white text-center text-primary text-sm md:text-lg py-2'>کلیه حقوق مادی و معنوی دوره ها متعلق به این وبسایت می باشد.</div>
          </div>
       </footer>
    );
