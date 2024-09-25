@@ -10,7 +10,8 @@ import notification from '../../../public/icons/notification.svg'
 import shopBag from '../../../public/icons/shop bag.svg'
 
 //components
-import SideMenu from '../../components/templates/SideMenu'
+import SideMenu from '../modules/SideMenu'
+import BottomMenu from '../modules/BottomMenu';
 
 const Menu = ({setLoginPage, openSideMenu, setOpenSideMenu}) => {
    return (
@@ -61,6 +62,8 @@ const Menu = ({setLoginPage, openSideMenu, setOpenSideMenu}) => {
             <img src={notification} className='ml-2 w-6 lg:w-7' />
             <p>همکاری در فروش</p>
          </button>
+
+         <BottomMenu setLoginPage={setLoginPage} />
       </div>
    );
 };
