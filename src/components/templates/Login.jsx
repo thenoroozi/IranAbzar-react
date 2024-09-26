@@ -7,7 +7,7 @@ const Login = ({ setLoginPage }) => {
    const [sign, setSign] = useState("in")
 
    return (
-      <div className='fixed z-40 h-full w-full top-0 right-0 bg-gray-200/50 backdrop-blur-sm grid place-items-center'>
+      <div className='fixed z-50 h-full w-full top-0 right-0 bg-gray-200/50 backdrop-blur-sm grid place-items-center'>
          <div className='w-96 h-fit bg-white p-4 rounded-lg'>
             <button onClick={() => setLoginPage(false)} className='hover:bg-primary/20 p-2 rounded-full' >
                <img src={close} className='w-3' />

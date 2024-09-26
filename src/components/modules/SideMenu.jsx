@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 //icons
 import close from '../../../public/icons/close.svg';
-import home from '../../../public/icons/home.svg'
-import archive from '../../../public/icons/archive.svg'
-import comment from '../../../public/icons/comment.svg'
-import shopBag from '../../../public/icons/shop bag.svg'
 import category from '../../../public/icons/category.svg'
 import arrow from '../../../public/icons/arrow.svg'
 

@@ -37,7 +37,6 @@ const BottomMenu = ({ setLoginPage }) => {
             setCurveRight("right-[302px]")
             break;
       }
-      console.log(selectedMenu, curveRight);
 
    }, [selectedMenu])
 
