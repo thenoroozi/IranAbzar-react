@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 
 //images
 import banner1 from '../../../public/images/banner1.jpg'
+import banner2 from '../../../public/images/banner2.jpg'
+import banner3 from '../../../public/images/banner3.jpg'
+import banner4 from '../../../public/images/banner4.jpg'
 
 //icons
 import chainsaw from '../../../public/icons/chainsaw.svg'
@@ -19,15 +22,15 @@ const bannerSlider = [
    },
    {
       id: 2,
-      img: banner1,
+      img: banner2,
    },
    {
       id: 3,
-      img: banner1,
+      img: banner3,
    },
    {
       id: 4,
-      img: banner1,
+      img: banner4,
    }
 ];
 
@@ -54,19 +57,19 @@ const Banner = () => {
    return (
       <div className='my-4'>
          <div className='flex justify-center'>
-            <img key={activeBanner.id} src={activeBanner.img} className='w-full md:w-[870px] lg:w-[990px] transition-al' />
+            <img key={activeBanner.id} src={activeBanner.img} className='w-full h-32 sm:h-52 md:h-64 lg:h-full md:w-[870px] lg:w-[990px] transition-al' />
          </div>
 
          <div className='h-6 flex items-start justify-center mt-3
-          [&_span]:w-2 [&_span]:bg-primary/50 [&_span]:ml-1 [&_span]:rounded-full [&_span]:transition-all'>
-            <span className={`${activeBanner.id === 1 ? "!bg-primary h-6" : "h-2"}`}></span>
-            <span className={`${activeBanner.id === 2 ? "!bg-primary h-6" : "h-2"}`}></span>
-            <span className={`${activeBanner.id === 3 ? "!bg-primary h-6" : "h-2"}`}></span>
-            <span className={`${activeBanner.id === 4 ? "!bg-primary h-6" : "h-2"}`}></span>
+          [&_span]:w-1.5 [&_span]:bg-primary/50 [&_span]:ml-1 [&_span]:rounded-full [&_span]:transition-all'>
+            <span className={`${activeBanner.id === 1 ? "!bg-primary h-6" : "h-1.5"}`}></span>
+            <span className={`${activeBanner.id === 2 ? "!bg-primary h-6" : "h-1.5"}`}></span>
+            <span className={`${activeBanner.id === 3 ? "!bg-primary h-6" : "h-1.5"}`}></span>
+            <span className={`${activeBanner.id === 4 ? "!bg-primary h-6" : "h-1.5"}`}></span>
          </div>
          
          <ul className='my-4 lg:w-[990px] grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-7 mx-auto font-Yekan-Medium
-         [&_li]:flex [&_li]:flex-col [&_li]:items-center [&_img]:bg-white [&_img]:p-5 [&_img]:w-20 [&_img]:h-20 [&_img]:rounded-xl [&_img]:shadow-md [&_img]:mb-4'>
+         [&_li]:flex [&_li]:flex-col [&_li]:items-center [&_img]:bg-white [&_img]:p-5 [&_img]:w-20 [&_img]:h-20 lg:[&_img]:w-24 lg:[&_img]:h-24 [&_img]:rounded-xl [&_img]:shadow-md [&_img]:mb-4'>
             <li>
                <img src={handscape} />
                <p>اره دستی</p>
