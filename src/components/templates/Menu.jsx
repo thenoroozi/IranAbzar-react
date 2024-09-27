@@ -13,7 +13,7 @@ import shopBag from '../../../public/icons/shop bag.svg'
 import SideMenu from '../modules/SideMenu'
 import BottomMenu from '../modules/BottomMenu';
 
-const Menu = ({setLoginPage, openSideMenu, setOpenSideMenu}) => {
+const Menu = ({ setLoginPage, openSideMenu, setOpenSideMenu }) => {
    return (
       <div className='w-full bg-gray-100 py-2 px-4 md:px-0 flex items-center justify-between md:justify-around'>
          <div className='hidden md:flex items-center'>
@@ -23,8 +23,8 @@ const Menu = ({setLoginPage, openSideMenu, setOpenSideMenu}) => {
             </button>
 
             <ul className='flex items-center text-black transition-all 
-               [&_li]:flex [&_li]:items-center [&_li]:text-sm lg:[&_li]:text-base [&_li]:ml-2 lg:[&_li]:ml-3 [&_li]:cursor-pointer [&_li]:font-Yekan-Medium
-               [&_li]:content hover:[&_li]:before:animate-content-opent
+               [&_li]:flex [&_li]:items-center [&_li]:text-sm lg:[&_li]:text-base [&_li]:ml-4 lg:[&_li]:ml-3 [&_li]:cursor-pointer [&_li]:font-Yekan-Medium
+               [&_li]:content 
                [&_img]:ml-1 [&_img]:w-5 lg:[&_img]:w-6'>
                <Link to='/' >
                   <li>
@@ -44,10 +44,12 @@ const Menu = ({setLoginPage, openSideMenu, setOpenSideMenu}) => {
                      <p>فروشگاه</p>
                   </li>
                </Link>
-               <li>
-                  <img src={comment} />
-                  <p>سوالات متداول</p>
-               </li>
+               <Link to='/comments'>
+                  <li>
+                     <img src={comment} />
+                     <p>سوالات متداول</p>
+                  </li>
+               </Link>
             </ul>
          </div>
 

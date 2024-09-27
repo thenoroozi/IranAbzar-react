@@ -45,12 +45,34 @@
       src: url(./assets/fonts/YekanBakh-Heavy.woff) format('woff');
    }
 
+   @keyframes content {
+      from {
+         @apply w-0;
+      }
+
+      to {
+         @apply w-full;
+      }
+   }
+
    body {
       @apply font-Yekan;
    }
 }
-@layer components{
-   .btn{
+
+@layer components {
+   .btn {
       @apply flex items-center bg-primary text-white p-2 rounded-lg transition-all hover:bg-primary/80;
+   }
+
+   .content {
+      @apply relative before:content-[''] before:h-[2px] before:rounded-lg before:bg-primary before:absolute before:-bottom-1.5 ; 
+   }
+   .content::before:hover{
+      box-shadow: 1px 1px 6px #ff4f23;
+      animation-name: content;
+      animation-duration: 0.3s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
    }
 }
