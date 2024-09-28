@@ -16,6 +16,9 @@ export default {
             'Yekan-Thin': ['YekanBakh-Thin'],
             'Yekan-Bold': ['YekanBakh-Bold'],
             'Yekan-Heavy': ['YekanBakh-Heavy'],
+         },
+         backgroundImage: {
+            'bg-circularsaw': "url('../../../public/images/bg-circularsaw.png')"
          }
       },
    },
