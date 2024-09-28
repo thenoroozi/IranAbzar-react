@@ -57,7 +57,7 @@ const Banner = () => {
    return (
       <div className='my-4'>
          <div className='flex justify-center'>
-            <img key={activeBanner.id} src={activeBanner.img} className='w-full h-32 sm:h-52 md:h-64 lg:h-full md:w-[870px] lg:w-[990px] transition-al' />
+            <img key={activeBanner.id} src={activeBanner.img} className='w-full h-32 sm:h-52 md:h-64 lg:h-full md:w-[870px] transition-al' />
          </div>
 
          <div className='h-6 flex items-start justify-center mt-3
@@ -68,7 +68,7 @@ const Banner = () => {
             <span className={`${activeBanner.id === 4 ? "!bg-primary h-6" : "h-1.5"}`}></span>
          </div>
          
-         <ul className='my-4 lg:w-[990px] grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-7 mx-auto font-Yekan-Medium
+         <ul className='my-4 grid gap-4 grid-cols-3 md:grid-cols-4 lg:grid-cols-7 mx-auto font-Yekan-Medium
          [&_li]:flex [&_li]:flex-col [&_li]:items-center [&_img]:bg-white [&_img]:p-5 [&_img]:w-20 [&_img]:h-20 lg:[&_img]:w-24 lg:[&_img]:h-24 [&_img]:rounded-xl [&_img]:shadow-md [&_img]:mb-4'>
             <li>
                <img src={handscape} />
