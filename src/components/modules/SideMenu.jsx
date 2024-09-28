@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 
 //icons
@@ -7,29 +6,21 @@ import close from '../../../public/icons/close.svg';
 import category from '../../../public/icons/category.svg'
 import arrow from '../../../public/icons/arrow.svg'
 
-//api
-import { getCategories } from '../../services/categories';
 
-const SideMenu = ({ openSideMenu, setOpenSideMenu }) => {
-   
+const SideMenu = ({ openSideMenu, setOpenSideMenu, data, isLoading }) => {
+
    const [categoryOpen, setCategoryOpen] = useState([]);
-
-   const { data, isLoading } = useQuery({
-      queryKey: ["get-categories"],
-      queryFn: getCategories
-   })
 
    const categoryHandler = (categoryId) => {
       let listId = [];
       if (categoryOpen.includes(categoryId)) {
-         listId=categoryOpen.filter(id => id !== categoryId && id);
+         listId = categoryOpen.filter(id => id !== categoryId && id);
          setCategoryOpen(listId)
       } else {
          setCategoryOpen([...categoryOpen, categoryId]);
       }
    }
-   console.log(categoryOpen);
-   
+
    return (
       <div className={`${openSideMenu ? "right-0" : "-right-80"} z-40 fixed top-0 w-80 h-screen bg-gray-50 py-5 px-4`}>
          <div className='flex justify-end'>
@@ -60,7 +51,7 @@ const SideMenu = ({ openSideMenu, setOpenSideMenu }) => {
                            {category?.subcategories &&
                               <ul className={`${categoryOpen.includes(category.id) ? "visible opacity-100 h-fit mt-1 py-1" : "invisible opacity-0 h-0 mt-0 py-0"}   px-4 space-y-1 bg-white rounded-md transition-all`}>
                                  {category?.subcategories.map((subcategory) => (
-                                    <li key={subcategory.id} className='transition-all !font-Yekan'>
+                                    <li key={subcategory.id} className='transition-all !font-Yekan cursor-pointer'>
                                        <p>- {subcategory.title}</p>
                                     </li>
                                  ))}
