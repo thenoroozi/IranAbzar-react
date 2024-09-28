@@ -4,6 +4,8 @@
          "id": "65dh44th854vn4nn1",
          "username": "hamed123",
          "password": "hamed123",
+         "fullname": "حامد نوروزی",
+         "mobile": "09301230010",
          "role": "USER"
       }
    ],
@@ -28,20 +30,25 @@
          "categories": [
             "r9876xcv46bd8d773",
             "6v8a3r132b6f8fh"
-         ]
+         ],
+         "tags": [
+            "6df4g3c2vyui46",
+            "6dfd6f5ggyui46"
+         ],
+         "image": "./public/drill-1.png"
       }
    ],
    "categories": [
       {
          "id": "r9876xcv46bd8d773",
          "title": "ابزار برقی و شارژی",
-         "subcategory": [
+         "subcategories": [
             {
                "id": "6v8a3r132b6f8fh",
                "title": "دریل"
             },
             {
-               "id": "6v8a3r132b6f8fh",
+               "id": "6v8a3r6ty44r6th",
                "title": "کارواش"
             },
             {
@@ -61,7 +68,7 @@
       {
          "id": "2lk4j2s9d8f7k24j",
          "title": "ابزار دستی",
-         "subcategory": [
+         "subcategories": [
             {
                "id": "6l7k9mn2340sdf0",
                "title": "انواع آچار"
@@ -87,7 +94,7 @@
       {
          "id": "8435d8gdwfcbgrt52",
          "title": "ابزار موتوری",
-         "subcategory": [
+         "subcategories": [
             {
                "id": "732488werxc8798",
                "title": "موتور برق یا ژنراتور"
@@ -101,7 +108,21 @@
                "title": "پمپ اب بنزینی"
             }
          ]
+      }
+   ],
+   "tags": [
+      {
+         "id": "6df4g3c2vyui46",
+         "title": "جدیدترین"
       },
+      {
+         "id": "6df4g3cwe23r17",
+         "title": "پرفروش‌ترین"
+      },
+      {
+         "id": "6dfd6f5ggyui46",
+         "title": "پربازدیدترین"
+      }
    ],
    "comments": [],
    "archive": []
