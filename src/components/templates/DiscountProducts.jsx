@@ -106,14 +106,14 @@ const DiscountProducts = () => {
                </div>
 
                <div className='w-full h-40 bg-blue-500 flex items-center justify-between rounded-2xl'>
-                  <div className='w-1/2 md:w-1/3 flex flex-col items-center justify-start font-Yekan-Bold'>
-                     <div>
+                  <div className='w-1/3 flex flex-col items-center justify-start font-Yekan-Bold'>
+                     <div className='pr-2 text-sm sm:text-base md:text-lg'>
                         <p className='w-fit text-blue-500 bg-white py-1 px-2 mb-1 rounded-md'>۵۰٪ تخفیف</p>
-                        <h3 className='text-white md:text-lg'>انواع دریل ‌های شارژی</h3>
+                        <h3 className='text-white'>انواع دریل ‌های شارژی</h3>
                      </div>
                   </div>
 
-                  <img src="./images/bg-drill.png" className='w-1/2 md:w-2/3 h-full' />
+                  <img src="./images/bg-drill.png" className='w-2/3 h-full' />
                </div>
             </div>
          </div>
