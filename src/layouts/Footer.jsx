@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
          </div>
 
-         <div className='bg-gray-100 py-5'>
+         <div className='bg-gray-100 md:py-5 pb-20'>
             <div className='flex flex-col md:flex-row items-center justify-around py-5'>
                <div className='flex items-start justify-between pb-4 md:pb-0
                [&_h3]:font-Yekan-Bold [&_h3]:text-lg md:[&_h3]:text-xl [&_h3]:mb-3 
@@ -63,11 +63,11 @@ const Footer = () => {
                      <img src={enamad}/>
                   </div>
                   <div className='flex items-center justify-between mt-4 [&_img]:w-6 [&_img]:h-6 [&_a]:p-1 [&_a]:rounded'>
-                     <a href="" className='bg-[#4fa1ff10]'><img src={twitter} alt="twitter" /></a>
-                     <a href="" className='bg-[#19ae1910]'><img src={whatsApp} alt="whatsApp" /></a>
-                     <a href="" className='bg-[#be69ff13]'><img src={instagram} alt="instagram" /></a>
-                     <a href="" className='bg-[#4fa1ff10]'><img src={telegram} alt="telegram" /></a>
-                     <a href="" className='bg-[#ed145c0e]'><img src={aparat} alt="aparat" /></a>
+                     <a href="#" className='bg-[#4fa1ff10]'><img src={twitter} alt="twitter" /></a>
+                     <a href="#" className='bg-[#19ae1910]'><img src={whatsApp} alt="whatsApp" /></a>
+                     <a href="https://instagram.com/thenoroozi" className='bg-[#be69ff13]'><img src={instagram} alt="instagram" /></a>
+                     <a href="#" className='bg-[#4fa1ff10]'><img src={telegram} alt="telegram" /></a>
+                     <a href="#" className='bg-[#ed145c0e]'><img src={aparat} alt="aparat" /></a>
                   </div>
                </div>
             </div>
