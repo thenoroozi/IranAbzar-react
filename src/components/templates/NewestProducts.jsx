@@ -13,7 +13,7 @@ const NewestProducts = () => {
 
          <div className='my-2 flex items-center justify-between gap-2 md:gap-4 lg:gap-8 overflow-x-scroll no-scrollbar'>
             <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-               <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
+               <img src="./images/drill-3.png" className='bg-gray-200 w-52 rounded-lg' />
                <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                <span className='text-gray-400 text-sm'>drillpress ronix</span>
                <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
@@ -27,7 +27,7 @@ const NewestProducts = () => {
                </button>
             </div>
             <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-               <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
+               <img src="./images/drill-3.png" className='bg-gray-200 w-52 rounded-lg' />
                <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                <span className='text-gray-400 text-sm'>drillpress ronix</span>
                <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
@@ -41,7 +41,7 @@ const NewestProducts = () => {
                </button>
             </div>
             <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-               <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
+               <img src="./images/drill-3.png" className='bg-gray-200 w-52 rounded-lg' />
                <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                <span className='text-gray-400 text-sm'>drillpress ronix</span>
                <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
@@ -55,7 +55,7 @@ const NewestProducts = () => {
                </button>
             </div>
             <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-               <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
+               <img src="./images/drill-3.png" className='bg-gray-200 w-52 rounded-lg' />
                <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                <span className='text-gray-400 text-sm'>drillpress ronix</span>
                <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
@@ -78,8 +78,8 @@ const NewestProducts = () => {
             <div className='bg-amber-500 w-full lg:w-[calc(100%-25%)] h-full lg:h-[500px] lg:-mr-16 p-4 rounded-2xl'>
                <div className='flex items-center justify-between gap-4 md:gap-8 overflow-x-scroll sm:no-scrollbar'>
                   <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-                     <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
-                     <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
+                     <img src="./images/drill-3.png" className='bg-gray-200 w-52 rounded-lg' />
+                     <h2 className=' font-Yekan-Bold mt-2 line-clamp-1'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                      <span className='text-gray-400 text-sm'>drillpress ronix</span>
                      <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
                         <p>قیمت:</p>
@@ -92,8 +92,8 @@ const NewestProducts = () => {
                      </button>
                   </div>
                   <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-                     <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
-                     <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
+                     <img src="./images/drill-2.png" className='bg-gray-200 w-52 rounded-lg' />
+                     <h2 className=' font-Yekan-Bold mt-2 line-clamp-1'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                      <span className='text-gray-400 text-sm'>drillpress ronix</span>
                      <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
                         <p>قیمت:</p>
@@ -106,8 +106,8 @@ const NewestProducts = () => {
                      </button>
                   </div>
                   <div className='w-60 bg-gray-50 p-4 rounded-xl'>
-                     <img src="./images/drill-1.png" className='bg-gray-200 w-52 rounded-lg' />
-                     <h2 className=' font-Yekan-Bold mt-2'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
+                     <img src="./images/drill-2.png" className='bg-gray-200 w-52 rounded-lg' />
+                     <h2 className=' font-Yekan-Bold mt-2 line-clamp-1'>دریل چکشی رونیکس مدل ۲۱۰۷</h2>
                      <span className='text-gray-400 text-sm'>drillpress ronix</span>
                      <div className='w-full my1 flex items-center justify-between font-Yekan-Medium'>
                         <p>قیمت:</p>
@@ -122,7 +122,7 @@ const NewestProducts = () => {
                </div>
 
                <div className='py-4 px-2 text-white'>
-                  <h1 className='font-Yekan-Bold text-lg lg:font-Yekan-Heavy lg:text-xl'>جدیدترین دریل های شرکت AEG</h1>
+                  <h1 className='text-xl font-Yekan-Heavy lg:text-2xl'>جدیدترین دریل های شرکت AEG</h1>
                   <p className='text-justify font-Yekan-Medium my-1'>شرکت AEG توسط امیل راتناو در سال 1883 ابتدا در شهر برلین در کشور آلمان تاسیس شد نخستین نام این شرکت ( شرکت آلمانی برق ادیسون ) بود و امیل راتناو در همان سال ها با خرید امتیاز ثبت ...</p>
                   <button className='bg-white text-amber-500 font-Yekan-Bold py-2 px-4 rounded-lg shadow-md shadow-white/30'>مشاهده همه محصولات</button>
                </div>
