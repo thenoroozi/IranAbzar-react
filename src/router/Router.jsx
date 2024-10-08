@@ -5,6 +5,7 @@ import Products from '../pages/Products';
 import Dashboard from '../pages/Dashboard';
 import Archive from '../pages/Archive';
 import Comments from '../pages/Comments';
+import Admin from "../pages/Admin";
 
 const Router = () => {
 
@@ -15,6 +16,7 @@ const Router = () => {
          <Route path="/dashboard" element={<Dashboard />} />
          <Route path="/archive" element={<Archive />} />
          <Route path="/comments" element={<Comments />} />
+         <Route path="/admin" element={<Admin />} />
       </Routes>
    );
 };
