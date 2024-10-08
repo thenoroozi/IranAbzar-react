@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query';
 
 //icons
-import home from '../../../public/icons/home.svg'
-import archive from '../../../public/icons/archive.svg'
-import menu from '../../../public/icons/hamburgerMenu.svg'
-import comment from '../../../public/icons/comment.svg'
-import notification from '../../../public/icons/notification.svg'
-import shopBag from '../../../public/icons/shop bag.svg'
+import home from '../../../../public/icons/home.svg'
+import archive from '../../../../public/icons/archive.svg'
+import menu from '../../../../public/icons/hamburgerMenu.svg'
+import comment from '../../../../public/icons/comment.svg'
+import notification from '../../../../public/icons/notification.svg'
+import shopBag from '../../../../public/icons/shop bag.svg'
 
 //components
-import SideMenu from '../modules/SideMenu'
-import BottomMenu from '../modules/BottomMenu';
+import SideMenu from '../../modules/SideMenu'
+import BottomMenu from '../../modules/BottomMenu';
 
 //api
-import { getCategories } from '../../services/categories';
-import CategoryMenu from '../modules/CategoryMenu';
+import { getCategories } from '../../../services/categories';
+import CategoryMenu from '../../modules/CategoryMenu';
 
 const Menu = ({ setLoginPage, openSideMenu, setOpenSideMenu }) => {
 

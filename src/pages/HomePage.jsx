@@ -1,7 +1,7 @@
-import Banner from "../components/templates/Banner";
-import DiscountProducts from "../components/templates/DiscountProducts";
-import MostSellProducts from "../components/templates/MostSellProducts";
-import NewestProducts from "../components/templates/NewestProducts";
+import Banner from "../components/templates/home/Banner";
+import DiscountProducts from "../components/templates/home/DiscountProducts";
+import MostSellProducts from "../components/templates/home/MostSellProducts";
+import NewestProducts from "../components/templates/home/NewestProducts";
 
 const HomePage = () => {
    return (

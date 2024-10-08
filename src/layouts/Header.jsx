@@ -1,9 +1,10 @@
 import { useState } from 'react'
 
 //components
-import Login from '../components/templates/Login'
-import Navbar from '../components/templates/Navbar'
-import Menu from '../components/templates/Menu';
+import Navbar from '../components/templates/layout/Navbar';
+import Menu from '../components/templates/layout/Menu';
+import Login from '../components/templates/layout/Login';
+
 
 const Header = () => {
    const [loginPage, setLoginPage] = useState(null);

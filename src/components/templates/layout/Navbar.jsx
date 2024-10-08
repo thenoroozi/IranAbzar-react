@@ -1,11 +1,11 @@
 import React from 'react';
 
 //icons
-import iranabzar from '../../../public/images/iranabzar.svg'
-import searchIcon from '../../../public/icons/search.svg'
-import person from '../../../public/icons/person.svg'
-import heart from '../../../public/icons/heart.svg'
-import bag from '../../../public/icons/bag.svg'
+import iranabzar from '../../../../public/images/iranabzar.svg'
+import searchIcon from '../../../../public/icons/search.svg'
+import person from '../../../../public/icons/person.svg'
+import heart from '../../../../public/icons/heart.svg'
+import bag from '../../../../public/icons/bag.svg'
 
 const Navbar = ({ setLoginPage }) => {
    return (

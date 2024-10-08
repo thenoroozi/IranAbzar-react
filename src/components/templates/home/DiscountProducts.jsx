@@ -1,8 +1,8 @@
 import React from 'react';
 
 //icons
-import arrowLeft from '../../../public/icons/arrow-left.svg'
-import arrowRight from '../../../public/icons/arrow-right.svg'
+import arrowLeft from '/public/icons/arrow-left.svg'
+import arrowRight from '/public/icons/arrow-right.svg'
 
 const DiscountProducts = () => {
    return (

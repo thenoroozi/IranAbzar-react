@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 
 //images
-import banner1 from '../../../public/images/banner1.jpg'
-import banner2 from '../../../public/images/banner2.jpg'
-import banner3 from '../../../public/images/banner3.jpg'
-import banner4 from '../../../public/images/banner4.jpg'
+import banner1 from '../../../../public/images/banner1.jpg'
+import banner2 from '../../../../public/images/banner2.jpg'
+import banner3 from '../../../../public/images/banner3.jpg'
+import banner4 from '../../../../public/images/banner4.jpg'
 
 //icons
-import chainsaw from '../../../public/icons/chainsaw.svg'
-import bucksaw from '../../../public/icons/bucksaw.svg'
-import circularsaw from '../../../public/icons/circularsaw.svg'
-import chipping from '../../../public/icons/chipping.svg'
-import drillpress from '../../../public/icons/drillpress.svg'
-import grindingStone from '../../../public/icons/grinding-stone.svg'
-import handscape from '../../../public/icons/handscape.svg'
+import chainsaw from '../../../../public/icons/chainsaw.svg'
+import bucksaw from '../../../../public/icons/bucksaw.svg'
+import circularsaw from '../../../../public/icons/circularsaw.svg'
+import chipping from '../../../../public/icons/chipping.svg'
+import drillpress from '../../../../public/icons/drillpress.svg'
+import grindingStone from '../../../../public/icons/grinding-stone.svg'
+import handscape from '../../../../public/icons/handscape.svg'
 
 const bannerSlider = [
    {

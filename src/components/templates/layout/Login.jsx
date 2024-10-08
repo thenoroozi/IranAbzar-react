@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-import close from '../../../public/icons/close.svg'
+import close from '../../../../public/icons/close.svg'
 
 const Login = ({ setLoginPage }) => {
    const [sign, setSign] = useState("in")
